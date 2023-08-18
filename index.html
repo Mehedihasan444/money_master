@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="mx-24">
+    <h1 class="text-center font-bold text-4xl text-green-600 my-5">Money Master!!!</h1>
+    <section id="" class="flex gap-20 justify-between items-center mt-5 ">
+        <div id="" class="flex-1 flex justify-end">
+            <img src="./money.png" alt="" class="">
+        </div>
+        <div id="" class="flex-1 flex items-center justify-center bg-gray-100    h-[600px]">
+           <div class="py-3 text-center space-y-5" id="">
+            <div class=" space-y-3">
+                <h1 class="font-bold text-2xl">Income</h1>
+                <span class="">Income : </span>
+                <input id="income" type="text" class="bg-gray-200 w-24 rounded-sm">
+            </div>
+            <div class="space-y-3 ">
+                <h1 class="font-bold text-2xl">Expenses</h1>
+                <div class="">
+                    <span class="">Food : </span>
+                    <input id="food" type="text" class="bg-gray-200 w-24 rounded-sm">
+                </div>
+                <div class="">
+                    <span class="">Rent : </span>
+                    <input id="rent" type="text" class="bg-gray-200 w-24 rounded-sm">
+                </div>
+                <div class="">
+                    <span class="">Clothes : </span>
+                    <input id="clothes" type="text" class="bg-gray-200 w-24 rounded-sm">
+                </div>
+                <button id="expenses-btn" class=" btn-primary w-32 rounded-md text-sm h-7">Calculate</button>
+                <h1 class="font-bold ">Total Expenses : <span class="" id="total-expense"></span></h1>
+                <h1 class="font-bold ">Balance : <span class="" id="balance"></span></h1>
+            </div>
+            <div class="" id="">
+                <span class="">Save : </span>
+                <input id="savings-percentage" type="text" class="bg-gray-200 w-24">
+                <span class=""> % </span>
+                <button id="saving-btn" class=" btn-primary w-32 rounded-md text-sm h-7">Calculate</button>
+            </div>
+            <div class="" id="">
+                <h1 class="font-bold ">saving Amount : <span class="" id="saving-amount"> </span></h1>
+                <h1 class="font-bold ">Remaining Balance : <span class="" id="remaining-balance"> </span></h1>
+            </div>
+           </div>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+
+</html>
